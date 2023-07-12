@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
+             x:Class="App_menu.LangostaAhumada"
+             
+             Title="LangostaAhumada">
+
+    <ScrollView>
+
+        <!-- Creamos un VerticalstackLayout y definimos su margen con la propiedad margin -->
+
+        <VerticalStackLayout Margin="50,50,50,50">
+
+            <!-- Adjuntamos nuestro gif y definimos su ancho y su alto con las propiedades correspondientes -->
+
+            <Image Source="langosta.gif"
+                   
+                IsAnimationPlaying ="True"
+                   
+                WidthRequest="150"   
+                   
+                HeightRequest="150"/>
+
+            <!-- Agregamos dos label con sus propiedades correspondientes -->
+
+            <Label FontSize="30" HorizontalOptions="Center" Padding="10,10,10,10" Text="Bienvenid@"/>
+
+            <Label FontSize="15" HorizontalOptions="Center" Padding="10,10,10,10" Text="Ingrese la cantidad de personas"/>
+
+            <!-- Creamos un Entry para ingresar la cantidad de personas -->
+
+            <Entry Keyboard="Numeric" Margin="10,10,10,10" Placeholder="Cantidad de personas" x:Name="PersonasEnry" />
+
+            <!-- Agregamos un button con su evento click -->
+
+            <Button Margin="10,10,10,10" Text="Ver resultado" Clicked="Langosta_Clicked"/>
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+</ContentPage>

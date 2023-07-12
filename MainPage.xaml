@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
+             x:Class="App_menu.MainPage">
+
+        <ScrollView>
+
+            <!-- Creamos un VerticalstackLayout y definimos su margen con la propiedad margin -->
+
+            <VerticalStackLayout Margin="50,50,50,50">
+
+                <!-- Adjuntamos nuestro gif y definimos su ancho y su alto con las propiedades correspondientes -->
+
+                <Image Source="bienvenidos.gif"
+                   
+                IsAnimationPlaying ="True"
+                   
+                WidthRequest="200"   
+                   
+                HeightRequest="200"/>
+
+                <!-- Agregamos un ImageButton con su evento click que nos dara acceso a la app  -->
+
+                <ImageButton
+                
+                Source="pares.png" 
+                
+                WidthRequest="300"
+                
+                HeightRequest="100"
+                
+                HorizontalOptions="Center"
+                
+                Padding="10,10,10,10"
+                
+                CornerRadius="50"
+                
+                Margin="10"
+                
+                BackgroundColor= "#FF66C4"
+                
+                Clicked="ImageButton_Clicked_NumerosPares"
+                
+                />
+
+                <!-- Agregamos un ImageButton con su evento click que nos dara acceso a la app  -->
+
+                <ImageButton
+                
+                Source="regresiva.png" 
+                
+                WidthRequest="300"
+                
+                HeightRequest="100"
+                
+                HorizontalOptions="Center"
+                
+                Padding="10,10,10,10"
+                
+                CornerRadius="50"
+                
+                Margin="10"
+                
+                BackgroundColor="#8C52FF"
+                
+                Clicked="ImageButton_Clicked_CuentaRegresiva"
+                
+                />
+
+                <!-- Agregamos un ImageButton con su evento click que nos dara acceso a la app  -->
+
+                <ImageButton 
+                
+                Source="tablas.png" 
+                
+                WidthRequest="300"
+                
+                HeightRequest="100"
+                
+                HorizontalOptions="Center"
+                
+                Padding="10,10,10,10"
+                
+                CornerRadius="50"
+                
+                Margin="10"
+                
+                BackgroundColor= "#FF66C4"
+                
+                Clicked="ImageButton_Clicked_TablasMultiplicar"
+                
+                />
+
+                <!-- Agregamos un ImageButton con su evento click que nos dara acceso a la app  -->
+
+                <ImageButton  
+                
+                Source="sueldo.png"    
+                
+                WidthRequest="300"
+                
+                HeightRequest="100"
+                
+                HorizontalOptions="Center"
+                
+                Padding="10,10,10,10"
+                
+                CornerRadius="50"
+                
+                Margin="10"
+                
+                BackgroundColor="#8C52FF"
+                
+                Clicked="ImageButton_Clicked_SueldoSemanal"
+                
+                />
+
+                <!-- Agregamos un ImageButton con su evento click que nos dara acceso a la app  -->
+
+                <ImageButton 
+                
+                Source="langosta.png" 
+                
+                WidthRequest="300"
+                
+                HeightRequest="100"
+                
+                HorizontalOptions="Center"
+                
+                Padding="10,10,10,10"
+                
+                CornerRadius="50"
+                
+                Margin="10"
+                
+                BackgroundColor= "#FF66C4"
+                
+                Clicked="ImageButton_Clicked_LangostaAhumada"
+                
+                />
+
+                <!-- Agregamos un ImageButton con su evento click que nos dara acceso a la app  -->
+
+                <ImageButton 
+                
+                Source="dinero.png" 
+                
+                WidthRequest="300"
+                
+                HeightRequest="100"
+                
+                HorizontalOptions="Center"
+                
+                Padding="10,10,10,10"
+                
+                CornerRadius="50"
+                
+                Margin="10"
+                
+                BackgroundColor="#8C52FF"
+                
+                Clicked="ImageButton_Clicked_AdquisicionDolares"
+                
+                />
+
+                <!-- Agregamos un ImageButton con su evento click que nos dara acceso a la app  -->
+
+                <ImageButton 
+                
+                Source="acerca.png" 
+                
+                WidthRequest="300"
+                
+                HeightRequest="100"
+                
+                HorizontalOptions="Center"
+                
+                Padding="10,10,10,10"
+                
+                CornerRadius="50"
+                
+                Margin="10"
+                
+                BackgroundColor= "#FF66C4"
+                
+                Clicked="ImageButton_Clicked_Acerca"
+                
+                />
+
+            </VerticalStackLayout>
+
+        </ScrollView>
+
+    </ContentPage>
+

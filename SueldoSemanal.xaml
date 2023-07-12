@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
+             x:Class="App_menu.SueldoSemanal"
+             
+             Title="SueldoSemanal">
+
+    <ScrollView>
+
+        <!-- Creamos un VerticalstackLayout y definimos su margen con la propiedad margin -->
+
+        <VerticalStackLayout Margin="50,50,50,50">
+
+            <!-- Adjuntamos nuestro gif y definimos su ancho y su alto con las propiedades correspondientes -->
+
+            <Image Source="sueldo.gif"
+                   
+                IsAnimationPlaying ="True"
+                   
+                WidthRequest="150"   
+                   
+                HeightRequest="150"/>
+
+            <!-- Agregamos dos label con sus propiedades correspondientes -->
+
+            <Label FontSize="30" HorizontalOptions="Center" Padding="10,10,10,10" Text="Bienvenid@"/>
+
+            <Label FontSize="15" HorizontalOptions="Center" Padding="10,10,10,10" Text="Ingrese el pago por hora"/>
+
+            <!-- Creamos un Entry para ingresar el pago por hora -->
+
+            <Entry Keyboard="Numeric" Margin="10,10,10,10" Placeholder="Pago por hora" x:Name="PHEntry" />
+
+            <!-- Agregamos un label con sus propiedades correspondientes -->
+
+            <Label FontSize="15" HorizontalOptions="Center" Padding="10,10,10,10" Text="Ingrese las horas trabajadas"/>
+
+            <!-- Creamos un Entry para ingresar las horas trabajadas -->
+
+            <Entry Keyboard="Numeric" Margin="10,10,10,10" Placeholder="Horas trabajadas" x:Name="HTEntry" />
+
+            <!-- Agregamos un button con su evento click -->
+
+            <Button Margin="10,10,10,10" Text="Calcular" Clicked="Calcular_Clicked"/>
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+</ContentPage>
