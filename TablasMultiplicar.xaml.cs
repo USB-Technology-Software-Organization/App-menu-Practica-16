@@ -11,11 +11,15 @@ public partial class TablasMultiplicar : ContentPage
     /// <Company>USB Technology</Company>
     /// <Lastmodificationdate>08/07/2023</Lastmodificationdate>
     /// <Lastmodificationdescription>Se agrego un If el cual verificara si los datos introducidos son nulos o si los entry estan vacios</Lastmodificationdescription>
-    /// <Lastmodificationautor>Ingrid Gabriel, Lorena Vásquez</Lastmodificationautor>
+    /// <Lastmodificationautor>Ingrid Jacqueline  Gabriel Zepeda, Lorena Vásquez</Lastmodificationautor>
     /// </summary>
 
 
     /// <summary>Constructor de la clase</summary>
+    
+    ///<Sumary>
+    ///PROBANDO COMMIT(Ingrid)
+    /// </Sumary>
     
     public TablasMultiplicar()
 
