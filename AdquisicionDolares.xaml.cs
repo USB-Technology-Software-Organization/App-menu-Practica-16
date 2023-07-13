@@ -9,7 +9,7 @@ public partial class AdquisicionDolares : ContentPage
     /// <Company>USB Technology</Company>
     /// <Lastmodificationdate>08/07/2023</Lastmodificationdate>
     /// <Lastmodificationdescription>Se agrego un If el cual verificara si los datos introducidos son nulos o si los entry estan vacios</Lastmodificationdescription>
-    /// <Lastmodificationautor>Kevin Silva</Lastmodificationautor>
+    /// <Lastmodificationautor>Kevin David Silva</Lastmodificationautor>
     /// </summary>
 
     ///<summary>Constructor de la clase</summary>
