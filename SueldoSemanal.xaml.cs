@@ -9,11 +9,14 @@ public partial class SueldoSemanal : ContentPage
     /// <Company>USB Technology</Company>
     /// <Lastmodificationdate>7/7/2023</Lastmodificationdate>
     /// <Lastmodificationdescription>Se agrego un If el cual verificara si los datos introducidos son nulos o si los entry estan vacios</Lastmodificationdescription>
-    /// <Lastmodificationautor>Ingrid Gabriel</Lastmodificationautor>
+    /// <Lastmodificationautor>Ingrid Jacqueline Gabriel Zepeda</Lastmodificationautor>
     /// </summary>
 
     /// <summary>Constructor de la clase</summary>
 
+    ///<summary>
+    ///Probando Commit
+    /// </summary>
     public SueldoSemanal()
 
     {
