@@ -21,7 +21,7 @@ public partial class CuentaRegresiva : ContentPage
     /// <Company>USB Technology</Company>
     /// <Lastmodificationdate>10/7/2023</Lastmodificationdate>
     /// <Lastmodificationdescription>Se agrego una directiva using</Lastmodificationdescription>
-    /// <Lastmodificationautor>Gael Baires</Lastmodificationautor>
+    /// <Lastmodificationautor>Gael Oswaldo Baires</Lastmodificationautor>
     /// </summary>
 
     public CuentaRegresiva()
