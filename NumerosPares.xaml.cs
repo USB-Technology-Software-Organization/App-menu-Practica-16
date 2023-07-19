@@ -9,7 +9,7 @@ public partial class NumerosPares : ContentPage
     /// <Company>USB Technology</Company>
     /// <Lastmodificationdate>7/7/2023</Lastmodificationdate>
     /// <Lastmodificationdescription>Se agrego un DisplayAlert que imprime los numeros pares</Lastmodificationdescription>
-    /// <Lastmodificationautor>Lorena Vazquez,Nery Méndez</Lastmodificationautor>
+    /// <Lastmodificationautor>Lorena Lisseth Vazquez Godoy,Nery Méndez</Lastmodificationautor>
     /// </summary>
 
     /// <summary>Constructor de la clase</summary>
